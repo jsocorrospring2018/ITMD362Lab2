@@ -397,8 +397,34 @@ template {
 }
 
 /* Jorell Styling BABI BOII */
+body{
+  background-image: url("background1.jpg");
+  background-repeat: no-repeat;
+}
+
 .maincontainer{
   width:180px;
   padding-left: 60px;
   padding-right: 60px;
+
+}
+
+fieldset{
+  display: block;
+  text-align: center;
+  border: 30px ridge;
+  border-color: #51F2D7;
+  font: 1em Georgia, "Times New Roman", Times, serif;
+  background-color: #8769FD;
+  opacity: .9;
+  width: 100px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+h1{
+  text-align: center;
+  font: 1em Georgia, "Times New Roman", Times, serif;
+  background-color: lightblue;
+  font-size: 300;
 }
